@@ -51,7 +51,8 @@ class Song
      self.find_by_name(name) || self.create(name) 
    end 
 
-def self.new_from_filename(new_from_file_name)
+def self.new_from_filename(file_name)
+  name = file_name.split(" - ")
   
 end 
 
