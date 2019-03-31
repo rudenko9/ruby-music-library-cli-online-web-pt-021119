@@ -1,5 +1,5 @@
 class Artist 
-extend 
+extend Concerns::Findable
   attr_accessor :name, :songs
   
   def initialize(name)
