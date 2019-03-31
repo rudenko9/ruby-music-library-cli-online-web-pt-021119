@@ -61,7 +61,7 @@ def self.new_from_filename(file_name)
 end 
 
 def self.create_from_filename(file_name)
-  song = new_from_filename(file_name).tap {|song| song.save}
+  new_from_filename(file_name).tap {|song| song.save}
 
 
 end 
