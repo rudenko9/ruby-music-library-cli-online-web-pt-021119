@@ -1,6 +1,6 @@
 class MusicLibraryController
   attr_accessor :path 
-  def initialize
+  def initialize(path = mp3)
     
     
   end 
