@@ -9,6 +9,8 @@ module Concerns
         object.name == name
       end 
   end 
+  
+  def find_or_
 
   
 end 
