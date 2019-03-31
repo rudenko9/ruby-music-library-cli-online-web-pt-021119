@@ -13,6 +13,6 @@ class MusicImporter
   end 
     
     def import
-      Song.new_from_filename(file_name).tap {|song| song.save}
+      Song.create_from_filename(file_name)
     end 
 end
