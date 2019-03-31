@@ -6,7 +6,7 @@ module Concerns
     
     def self.find_by_name
       self.all.find do |obj|
-        ogj.name == name
+        obj.name == name
       end 
   end 
   
